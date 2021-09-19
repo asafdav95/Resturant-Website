@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R&A Reservation</title>
+    <link rel="stylesheet" href="../Reservation/reservation.css">
+</head>
+
+
+<body>
+    <header>
+        <div id="top-bar">
+            <div style="font-size:xxx-large;float: left;">R&A</div>
+            <ul id="top-nav-bar">
+                <li class="top-nav" title="Home Page link"><a class="head-links" href="../front-page/index.html" target="_blank">Home Page</a></li>
+                <li class="top-nav" title="Menu link"><a class="head-links" href="../Menu/menu.html" target="_blank">Menu</a></li>
+                <li class="top-nav"title="Contact-Us link"><a class="head-links" href="../Contact Us/contact-us.html" target="_blank">Contact Us</a></li>
+                <li class="top-nav" title="About-Us link"><a class="head-links" href="../about-us/about-us.html" target="_blank">About Us</a></li>
+                <li class="top-nav"title="Reservation link"><a class="head-links" href="../Reservation/reservation.html" target="_blank">Reservation</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="" style="background-color: rgb(31, 28, 27);height:900px;width: 90%;margin-left:70px;margin-top: 100px;">
+        <h2 style="font-size:40px; letter-spacing: 0.5px; margin-left: 30px;margin-bottom:60px;"><u>Reservation</u></h2>
+        <form method="get">
+            <div class="pick">
+                <div>Pick a day:</div><br>
+                <input type="date" style="height:20px;margin-left:20px;">
+            </div>
+            <br><br><br>
+            <div class="pick">
+                <div>Pick a time:</div><br>
+                <select name="day" style="margin-left:20px;width: 150px;height:23px;">
+                    <option value="18">18:00</option>
+                    <option value="18.5">18:30</option>
+                    <option value="19">19:00</option>
+                    <option value="19.5">19:30</option>
+                    <option value="20">20:00</option>
+                    <option value="20.5">20:30</option>
+                    <option value="21">21:00</option>
+                    <option value="21.5">21:30</option>
+                </select>
+            </div><br><br>
+            <button id="sub" type="submit" onclick="subButton()" style="margin-left:20px;border-radius: 2.5px;border: 0px solid transparent;">Place Reservation</button>
+        </form>
+    </section>
+
+    <script>
+        function subButton() {
+            alert("Sorry!\n we are always full because we are so good!\n😁😁😁");
+        }
+    </script>
+
+
+</body>
+
+</html>
