@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(78, 35, 0);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:#c08d00;
+}
+#welcome-heading {
+    font-size:50px;
+    display:inline-block;
+    font-family: Hina Mincho;
+}
+.head-links {
+    text-decoration: none;
+    color: #000;
+}
+
+#top-bar {
+    background:#c08d00;
+    color:rgb(78, 35, 0);
+    line-height: 65px;
+    padding-left:30px;
+}
+
+#top-nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.top-nav {
+    list-style-type: none;
+    padding:0px 10px 0px 10px;
+    width:100px;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+
+#about-us-context {
+    background-color: rgb(31, 28, 27);
+    height:900px;
+    width: 90%;
+    margin-left:70px;
+    margin-top: 100px;
+}
+
+
+#par {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 1.5px;
+    letter-spacing: 0.7px;
+    font-size: large;
+}
